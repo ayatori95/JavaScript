@@ -1,4 +1,5 @@
 function Carro (velocidadeMaxima = 200, delta = 5) {
+    // metodo privado
     let velocidadeAtual = 0
 
     //metodo público
