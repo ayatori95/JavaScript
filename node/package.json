@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dev:start": "./node_modules/nodemon/bin/nodemon index.js"
+}
