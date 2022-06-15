@@ -1,4 +1,4 @@
-// Uma factory retorna um nove objeto
+// Uma factory retorna um novo objeto
 
 module.exports = () =>{
     return {
