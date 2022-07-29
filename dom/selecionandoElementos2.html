@@ -21,8 +21,15 @@
         }
         selecionar('div')
         descelecionar('.terceiro')
+
         selecionar('[wb-attrib]')
+        descelecionar(':not(#primeiro)')
+        descelecionar('*')
+
+        selecionar(':nth-child(1)')
+        descelecionar('*')
         
+        selecionar('div:nth-of-type(1)')
         
     </script>
 </body>
