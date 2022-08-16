@@ -93,5 +93,10 @@
         $('main').children().css(comBorda).css(semBorda)
 
         $('body').find('p').css(comBorda).css(semBorda)
+
+        const elementoDom = document.getElementsByClassName('menu')
+        $(elementoDom).css(comBorda)//.css(semBorda)
+
+        $('main').children().each((i,e) => $(e).css(comBorda))
     </script>
 </body>
