@@ -12,6 +12,10 @@
     <h1>Modificando HTML #03</h1>
     <div id='conteudo'></div>
 
+    <div id="frase" class="frase"> </div></div>
+    <button class="button btn btn-1" onClick="novafrase()"> 
+        <span>Gerar Frase</span></button>
+
     <script>
         const pessoas = [
             { nome: 'Ana', nota: 9.1 },
@@ -33,5 +37,20 @@
         
         $('#conteudo').append(tabela)
        })
+
+       var frases = [
+       'Nossas dúvidas são traidoras e nos fazem perder o que, com frequência, poderíamos ganhar, por simples medo de arriscar.  -  William Shakespare',
+        'Este CD-ROM pode conter mais informação do que todo estes papéis abaixo de mim - Bill Gates, 1994',
+        'A pior coisa que eu posso ser é igual a todo mundo. Eu odeio isso. - Arnold Schwarzenegger',
+        'Cada sonho que você deixa pra trás, é um pedaço do seu futuro que deixa de existir. - Steve Jobs ',
+      'A História é um conjunto de mentiras sobre as quais se chegou a um acordo. - Napoleão Bonaparte ',
+        ];
+
+        function novafrase() {
+
+             //Muda a frase sempre que a função é chamada
+            var aleatorio = Math.floor(Math.random() * (frases.length));
+            document.getElementById('frase').innerHTML = frases[aleatorio];
+        }
     </script>
 </body>
