@@ -15,4 +15,4 @@ ReactDOM.render(
     </div>
 , document.getElementById('root'))
 
-ReactDOM.render(<div><Saudacao tipo="" nome=""/></div>, document.getElementById('root2'))
+ReactDOM.render(<div><Saudacao tipo="Bom dia," nome="Marcus"/></div>, document.getElementById('root2'))
