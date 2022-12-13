@@ -15,6 +15,5 @@ export default props =>
         <h2>Filhos</h2>
         <ul>
             {childrenWithProps(props)}
-            
         </ul>
     </div>
