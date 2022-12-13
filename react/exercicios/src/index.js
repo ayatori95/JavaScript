@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'
 //import BomDia from './componentes/BomDia'
 import Multi, { BoaTarde } from './componentes/Multiplos'
 import Saudacao from './componentes/Saudacao'
-
+import Pai from './componentes/Pai'
 
 // funciona nas duas formas
 ReactDOM.render(
@@ -15,4 +15,9 @@ ReactDOM.render(
     </div>
 , document.getElementById('root'))
 
-ReactDOM.render(<div><Saudacao tipo="Bom dia," nome="Marcus"/></div>, document.getElementById('root2'))
+ReactDOM.render(
+<div>
+  <Pai nome="Marcus" sobrenome =" O'Connel">
+{/* Como passar os componentes Filhos direto pela chamada? */}
+  </Pai>
+</div>, document.getElementById('root2'))
