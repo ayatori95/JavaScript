@@ -1,11 +1,9 @@
 {
-    "users": [{
-        "id": 1,
-        "name":"Arthur Oliveira",
-        "email":"aoliveira@gmail.com"
-    },{
-        "id": 2,
-        "name": "Cecília Braga",
-        "email": "cbraga@gmail.com"
-    }]
+  "users": [
+    {
+      "name": "Marcos Alexandre",
+      "email": "marcoale@hotmail.com",
+      "id": 3
+    }
+  ]
 }
